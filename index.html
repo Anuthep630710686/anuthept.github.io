@@ -1,11 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>เปรียบเทียบ OOP ใน Java, C++, Python</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    AAAAAAAAAAAAAAAAA
+    <div class="container my-5">
+        <h1 class="mb-4 text-center">การเปรียบเทียบการเขียนโปรแกรมแบบ OOP ในภาษา Java, C++, และ Python</h1>
+
+        <h2 class="mt-5">คุณสมบัติเพิ่มเติม</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="my-0">การจัดการข้อผิดพลาด (Exception Handling)</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><strong>Java:</strong> ใช้ try, catch, finally และมี checked exceptions</li>
+                            <li><strong>C++:</strong> ใช้ try, catch, และ throw ไม่มี checked exceptions</li>
+                            <li><strong>Python:</strong> ใช้ try, except, finally ไม่มี checked exceptions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="my-0">การใช้เทมเพลตและเจเนอริกส์</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><strong>Java:</strong> ใช้ Generics สำหรับการเขียนโค้ดที่ทั่วไป</li>
+                            <li><strong>C++:</strong> ใช้ Templates สำหรับการเขียนโค้ดที่ทั่วไป</li>
+                            <li><strong>Python:</strong> ไม่มีระบบเจเนอริกส์ในตัว แต่สามารถใช้ไดนามิกไทป์ได้</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="my-0">การเรียกใช้งานแบบไดนามิก (Dynamic Dispatch)</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><strong>Java:</strong> ใช้ virtual methods โดยค่าเริ่มต้น</li>
+                            <li><strong>C++:</strong> ต้องระบุ virtual keyword สำหรับการเรียกแบบไดนามิก</li>
+                            <li><strong>Python:</strong> การเรียกใช้งานแบบไดนามิกเป็นค่าเริ่มต้น</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-5">ประสิทธิภาพและการใช้งาน</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-warning text-white">
+                        <h5 class="my-0">ประสิทธิภาพการทำงาน</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><strong>Java:</strong> ใช้ JVM ทำให้มีประสิทธิภาพดีในการรันบนหลายแพลตฟอร์ม</li>
+                            <li><strong>C++:</strong> รันแบบ native code ทำให้มีประสิทธิภาพสูง</li>
+                            <li><strong>Python:</strong> เนื่องจากเป็นภาษา interpreted จึงมีประสิทธิภาพต่ำกว่า</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-warning text-white">
+                        <h5 class="my-0">การสนับสนุนไลบรารีและเฟรมเวิร์ก</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><strong>Java:</strong> มี Spring, Hibernate เป็นต้น</li>
+                            <li><strong>C++:</strong> มี Qt, Boost เป็นต้น</li>
+                            <li><strong>Python:</strong> มี Django, Flask, เป็นต้น</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- การสนับสนุนการพัฒนา -->
+        <h2 class="mt-5">การสนับสนุนการพัฒนา</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="my-0">เครื่องมือพัฒนา (IDEs)</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><strong>Java:</strong> IntelliJ IDEA, Eclipse, NetBeans</li>
+                            <li><strong>C++:</strong> Visual Studio, CLion, Qt Creator</li>
+                            <li><strong>Python:</strong> PyCharm, VS Code, Spyder</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="my-0">การสนับสนุนชุมชน</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><strong>Java:</strong> ชุมชนขนาดใหญ่และมีเอกสารมากมาย</li>
+                            <li><strong>C++:</strong> ชุมชนเชี่ยวชาญด้านประสิทธิภาพสูง</li>
+                            <li><strong>Python:</strong> ชุมชนที่เติบโตเร็วและสนับสนุนการเรียนรู้</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="my-0">การเรียนรู้และการสอน</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><strong>Java:</strong> นิยมสอนในหลักสูตรการเรียนการสอนเกี่ยวกับ OOP</li>
+                            <li><strong>C++:</strong> สอนในระดับสูงเกี่ยวกับการจัดการหน่วยความจำ</li>
+                            <li><strong>Python:</strong> นิยมสอนสำหรับผู้เริ่มต้นเนื่องจากความง่าย</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-5">สรุป</h2>
+        <p>Java, C++, และ Python ต่างมีจุดเด่นและจุดด้อยในการเขียนโปรแกรมแบบ OOP ขึ้นอยู่กับความต้องการและลักษณะของโปรเจกต์ นักพัฒนาสามารถเลือกใช้ภาษาที่เหมาะสมกับงานและทักษะของตนได้ดีที่สุด</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
